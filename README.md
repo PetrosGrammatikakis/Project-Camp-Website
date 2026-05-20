@@ -2,6 +2,7 @@
 
 A full-stack campground web application inspired by **YelpCamp (The Web Developer Bootcamp by Colt Steele - Udemy)**.  
 Built while following the course.
+![camp][(https://res.cloudinary.com/xxx/image/upload/v123/camp.jpg)](https://res.cloudinary.com/do71ozwtk/image/upload/v1779286968/Project-camp-website_z9agkg.png)
 
 ---
 
