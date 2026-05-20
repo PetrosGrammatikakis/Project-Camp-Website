@@ -1,0 +1,35 @@
+<% layout('layouts/boilerplate') %>
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="row">
+            <div class="col-6">
+                <div class="card" style="width: 25rem;">
+                    <img src="https://res.cloudinary.com/do71ozwtk/image/upload/v1779099025/samples/landscapes/nature-mountains.jpg"
+                        class="card-img-top" alt="img">
+                    <div class="card-body">
+                        <form action=" /login" method="POST" novalidate class="p-4 validated-form">
+                            <div class="mb-3 ">
+                                <label class="form-label" for="username">Username:</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                                <div class="valid-feedback">Looks good!</div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="password">Password:</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                                <div class="valid-feedback">Looks good!</div>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <button type="submit" class="btn btn-primary">Login</button>
+                                <a href="/register" class="btn btn-sm btn-secondary">
+                                    Register
+                                </a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>

@@ -1,0 +1,21 @@
+<%- layout('/layouts/boilerplate') %>
+
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="alert alert-danger" role="alert">
+                <h1 class="aler alert-heading">Oops! Something went wrong.</h1>
+
+                <%if (process.env.NODE_ENV !=="production" ) { %>
+                    <div>
+                        <strong>
+                            <%= message %>
+                        </strong>
+                    </div>
+                    <div>
+                        <strong>Error: <%= statusCode %></strong>
+                    </div>
+                    <%}%>
+
+            </div>
+        </div>
+    </div>
