@@ -90,7 +90,7 @@ DB_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/project-camp
 You MUST create a .env file in the root of the project and add the following variables:
 
 ### MongoDB Database
-- DATABASE_URL=mongodb+srv://first-user:<db_password>@cluster0.yxv52jj.mongodb.net/?appName=Cluster0 
+- DB_URL=mongodb+srv://first-user:<db_password>@cluster0.yxv52jj.mongodb.net/?appName=Cluster0 
 
 
 ### MapTiler API Key (for map rendering)
